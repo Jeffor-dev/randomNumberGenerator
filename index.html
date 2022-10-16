@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Gerador Aleatório</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="left-container">
+            <div class="box" id="up-box">
+                <input id="min" class="number-box" placeholder="min" type="number" id="quantity" maxlength="4" name="quantity" min="0" max="1000" required="true">
+            </div>
+            <div class="box" id="down-box">
+                <input id="max" class="number-box" placeholder="max" type="number" id="quantity" maxlength="4" name="quantity" min="0" max="1000" required="true">
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="inside-container">
+                <div class="large-box">
+                    <input id="resul" class="number-box" placeholder="Number" type="number" disabled="true">
+                </div>
+                <button class="btn" onclick="generate()">Generate</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
